@@ -51,7 +51,6 @@ ol {
 
 .content {
   max-width: 1140px;
-  min-height: 534px;
   padding: 133px 30px;
   display: grid;
   grid-template-columns: 1fr 399px;
@@ -183,6 +182,11 @@ ol {
 
 /* section content__details */
 
+.content__details {
+  width: 100%;
+  min-height: 534px;
+}
+
 .title {
   font-family: "Oswald";
   font-size: 75px;
@@ -195,11 +199,6 @@ ol {
   color: #545050;
 }
 
-.content__details {
-  width: 100%;
-  height: 100%;
-}
-
 .title {
   margin-bottom: 26px;
 }
@@ -208,7 +207,7 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  row-gap: 30px;
+  row-gap: 34px;
   max-height: 298px;
   overflow: auto;
 }
